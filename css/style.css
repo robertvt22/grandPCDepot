@@ -1,0 +1,168 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  margin: 0;
+  height: 100%;
+}
+
+main{
+  margin-top: 20px;
+  margin: 0;
+}
+
+
+
+.pc-parts {
+  margin-top: 90px;
+}
+
+
+
+.pc-mag{
+  margin-left: 200px;
+}
+
+.whitecolor{
+  color: white;
+}
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: #808080; }
+
+.top-nav-collapse {
+  background-color: #808080; }
+
+.login-page {
+  margin-top: 80px;
+}
+
+.form-user-login{
+  margin-top: 50px;
+}
+
+.login-title{
+  color: white;
+}
+
+.select-pc{
+  margin-top: 200px;
+}
+
+.text-center{
+  color: white;
+}
+
+.comp{
+  color: white;
+}
+
+.log1{
+  margin-top: 100px;
+}
+
+.selected-part {
+  margin-top: 200px;
+}
+
+.pc-image{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+.mfoot  {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.user-login{
+  background-image: url('../img/home/pc-home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.forn-login {
+  background-color: #F2E1C1;
+}
+
+.edit-profil{
+  margin-top: 100px;
+  background-color: #F2E1C1;
+
+}
+
+.btn-login  {
+  margin-bottom: 150px;
+}
+
+.btn-confirmation{
+  background-color: black;
+}
+
+.card1{
+  background-color: black;
+}
+
+.card2{
+  background-color: grey;
+}
+
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #808080
+
+; } }
+
+
+@media only screen and (max-width: 768px) {
+  .user-login {
+    background-image: url('../img/home/pc-home.jpeg');
+
+
+; } }
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #808080
+; }
+
+.select-tr{
+  cursor: pointer;
+}
+
+.select-tr:hover{ background-color: #808080
+}
+
+.category-title {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.pc-1{
+  margin-top: -50px;
+}
+
+
+.button-create {
+  float: right;
+  margin: 10px;
+}
